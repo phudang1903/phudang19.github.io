@@ -37,6 +37,10 @@ html {
 
 .personal {
     margin: 0;
+        background-color: #42a8c0;  /* màu xanh cho cột trái */
+    flex: 0 0 30%;              /* chiều rộng cố định 30% */
+    display: flex;
+    flex-direction: column;
     height: 100%;
 }
 
