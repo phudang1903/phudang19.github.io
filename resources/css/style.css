@@ -18,6 +18,8 @@ html {
     max-width: 960px;
     margin: 0 auto;
     background-color: #42a8c0;
+    display: flex;
+    align-items: stretch;
     box-shadow: -3px 3px 3px 0px rgba(200,200,200, 0.9);
 }
 
@@ -29,8 +31,8 @@ html {
 
 .professional {
     background-color: white;
+    flex: 1;                    /* chiếm phần còn lại */
     padding: 40px;
-    margin: 0;
 }
 
 .personal {
