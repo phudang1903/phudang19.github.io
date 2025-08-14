@@ -1,0 +1,9 @@
+Value Description
+r Opening to read (default)
+w Opening to write
+x Opening to create a document, fails if the file already exists
+a Opening to write, adding at the end of the file if it already exists
++ Opening for update (read and write)
+b To be added to an opening mode for binary files (rb or wb)
+t Text mode (automatic decoding of bytes in Unicode). Default if not
+specified (adds to the mode, like b)
